@@ -1,4 +1,4 @@
-module github.com/devbytes-cloud/dynamic-cf
+module github.com/devbytes-cloud/ddns-cloudflare
 
 go 1.23.3
 

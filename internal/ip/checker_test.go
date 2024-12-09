@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	intHTTP "github.com/devbytes-cloud/dynamic-cf/internal/http"
+	intHTTP "github.com/devbytes-cloud/ddns-cloudflare/internal/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

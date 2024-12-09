@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/devbytes-cloud/dynamic-cf/internal/http"
+	"github.com/devbytes-cloud/ddns-cloudflare/internal/http"
 	"github.com/mitchellh/go-homedir"
 )
 
@@ -48,7 +48,7 @@ func NewChecker(ctx context.Context, ipChan chan string, logger *slog.Logger, cl
 		return nil, err
 	}
 
-	logger = logger.With("component", "ip-checker")
+	logger = logger.With("component""ip-checker")
 	return &Checker{
 		ipChan:   ipChan,
 		ctx:      ctx,
