@@ -1,6 +1,6 @@
 module github.com/devbytes-cloud/ddns-cloudflare
 
-go 1.23.3
+go 1.25.0
 
 require (
 	github.com/cloudflare/cloudflare-go v0.111.0
@@ -15,8 +15,8 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
-	golang.org/x/net v0.31.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
